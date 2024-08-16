@@ -1,8 +1,20 @@
 # 地震情報で用いる震央地名 ポリゴンデータ
-気象庁の「地震情報で用いる震央地名」をまとめたGISデータです。GeoJSON形式で、各震央地名が指す地域をポリゴンとして表現しています。また、各ポリゴンのproperties.nameに震央地名を「東京都２３区」のような形式で設定しています。
+気象庁の「地震情報で用いる震央地名」をまとめたGISデータです。地震火山関連コード表のAreaEpicenterと対応します。
+GeoJSON形式で、各震央地名が指す地域をポリゴンとして表現しています。また、各ポリゴンのプロパティに震央地名とコードを設定しています。
 
 ### サンプル
-<img src="https://github.com/user-attachments/assets/6abe69f6-0844-4b62-8349-ae92860ce168" width="400px">
+[<img src="https://github.com/user-attachments/assets/6abe69f6-0844-4b62-8349-ae92860ce168" width="400px"><img src="https://github.com/user-attachments/assets/38699bf3-801c-4fad-94cd-2a60a432b5f2" width="400px">
+](https://github.com/0Quake/JMA_Region/blob/main/%E9%9C%87%E5%A4%AE%E5%9C%B0%E5%90%8D.geojson)
+
+[動的プレビュー](https://github.com/0Quake/JMA_Region/blob/main/%E9%9C%87%E5%A4%AE%E5%9C%B0%E5%90%8D.geojson)
+
+## データの説明
+|プロパティ|説明|例|
+|-|-|-|
+|properties.name|震央地名(AreaEpicenter)|東京都２３区|
+|properties.id|コード|350|
+
+本初子午線をまたぐ「ヨーロッパ西部」「地中海」「アフリカ西部」「南太平洋」のポリゴンは、本初子午線で分割し、マルチポリゴンで表現しています。また、飛び地のある「檜山地方」は、計2つのポリゴンをマルチポリゴンで表現しています。
 
 ## 出典
 気象庁ホームページ
