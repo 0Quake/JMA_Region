@@ -11,15 +11,32 @@ GeoJSON形式で、各震央地名が指す地域をポリゴンとして表現�
 ## データの説明
 |プロパティ|説明|例|
 |-|-|-|
-|properties.name|震央地名(AreaEpicenter)|東京都２３区|
 |properties.id|コード|350|
+|properties.name|震央地名(日本語)|東京都２３区|
+|properties.name_en|震央地名(英語)|23 wards, Tokyo|
+|properties.name_zh-cn|震央地名(中国語_簡体字)|东京都23区|
+|properties.name_zh-tw|震央地名(中国語_繁体字)|東京都２３區|
+|properties.name_ko|震央地名(韓国語)|도쿄도 23구|
+|properties.name_pt|震央地名(ポルトガル語)|23 distritos da Região Metropolitana de Tóquio|
+|properties.name_es|震央地名(スペイン語)|23 districtos de Metrópoli de Tokio|
+|properties.name_id|震央地名(インドネシア語)|23 Distrik Ibu Kota Tokyo|
+|properties.name_vi|震央地名(ベトナム語)|23 quận thủ đô Tokyo|
+|properties.name_tl|震央地名(タガログ語)|23 Wards ng Tokyo Metropolis |
+|properties.name_th|震央地名(タイ語)|23 แขวงของมหานครโตเกียว|
+|properties.name_ne|震央地名(ネパール語)|टोक्यो महानगरपालिकाको २३ सहरहरू|
+|properties.name_km|震央地名(クメール語)|តូក្យូ​ 23 សង្កាត់|
+|properties.name_my|震央地名(ビルマ語)|23ရပ်ကွက်၊ တိုကျို|
+|properties.name_mn|震央地名(モンゴル語)|Токио нийслэл, 23 хороо|
 
-本初子午線をまたぐ「ヨーロッパ西部」「地中海」「アフリカ西部」「南太平洋」のポリゴンは、本初子午線で分割し、マルチポリゴンで表現しています。また、飛び地のある「檜山地方」は、計2つのポリゴンをマルチポリゴンで表現しています。
+
+- 本初子午線をまたぐ「ヨーロッパ西部」「地中海」「アフリカ西部」「南太平洋」のポリゴンは、本初子午線で分割し、マルチポリゴンで表現しています。
+- 飛び地のある「檜山地方」は、計2つのポリゴンをマルチポリゴンで表現しています。
 
 ## 出典
 気象庁ホームページ
 - [地震情報で用いる震央地名](https://www.data.jma.go.jp/eqev/data/joho/region/index.html)
 - [別紙３ 震央地名地図](https://www.jma.go.jp/jma/press/0609/20b/20060920bessi3.pdf)
+- [多言語辞書データ](https://www.data.jma.go.jp/developer/multilingual.html)
 
 上記出典には、政府標準利用規約 第2.0版（[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/legalcode.ja)互換）が適用されます。
 
