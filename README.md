@@ -13,6 +13,7 @@ GeoJSON形式で、各震央地名が指す地域をポリゴンとして表現�
 |-|-|-|
 |properties.id|コード|350|
 |properties.name|震央地名(日本語)|東京都２３区|
+|properties.name|震央地名(ひらがな)|とうきょうとにじゅうさんく|
 |properties.name_en|震央地名(英語)|23 wards, Tokyo|
 |properties.name_zh-cn|震央地名(中国語_簡体字)|东京都23区|
 |properties.name_zh-tw|震央地名(中国語_繁体字)|東京都２３區|
@@ -34,9 +35,11 @@ GeoJSON形式で、各震央地名が指す地域をポリゴンとして表現�
 
 ## 出典
 気象庁ホームページ
-- [地震情報で用いる震央地名](https://www.data.jma.go.jp/eqev/data/joho/region/index.html)
-- [別紙３ 震央地名地図](https://www.jma.go.jp/jma/press/0609/20b/20060920bessi3.pdf)
-- [多言語辞書データ](https://www.data.jma.go.jp/developer/multilingual.html)
+- [地震情報で用いる震央地名](https://www.data.jma.go.jp/eqev/data/joho/region/index.html)（使用部分：GISデータ）
+- [別紙３ 震央地名地図](https://www.jma.go.jp/jma/press/0609/20b/20060920bessi3.pdf)（使用部分：GISデータ）
+- [個別コード表](https://xml.kishou.go.jp/tec_material.html)（使用部分：日本語地名）
+- [予報区等GISデータ「地震情報／細分区域」](https://www.data.jma.go.jp/developer/multilingual.html)（使用部分：一部のひらがな地名）
+- [多言語辞書データ](https://www.data.jma.go.jp/developer/multilingual.html)（使用部分：多国語地名）
 
 上記出典には、政府標準利用規約 第2.0版（[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/legalcode.ja)互換）が適用されます。
 
@@ -49,6 +52,10 @@ This work by Benidate is marked with CC0 1.0 Universal
 2. 上記画像をQGISに読み込み、ジオリファレンス（位置合わせ）を行う
 3. QGISでグリッドを生成（緯経度0.1度間隔、緯経度それぞれ0.05度ずらす）
 4. グリッドを頼りに根性で手書き（スナップ機能を使用し正確に描画）
+5. コード表を参照してコードから日本語震央地名を割り出し、登録
+6. 多言語辞書データを参照してコードから多国語地名を割り出し、登録
+7. 一致する地名が「地震情報／細分区域」に存在する場合、細分区域GISデータに併記されているひらがな地名を採用
+8. それ以外の場合、手動でひらがな地名を作成
 
 ## お願い
-データに謝り等あればissueでお知らせください。
+データに誤り等あればissueでお知らせください。
