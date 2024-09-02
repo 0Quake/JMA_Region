@@ -13,7 +13,7 @@ GeoJSON形式で、各震央地名が指す地域をポリゴンとして表現�
 |-|-|-|
 |properties.id|コード|350|
 |properties.name|震央地名(日本語)|東京都２３区|
-|properties.name|震央地名(ひらがな)|とうきょうとにじゅうさんく|
+|properties.name_kana|震央地名(ひらがな)|とうきょうとにじゅうさんく|
 |properties.name_en|震央地名(英語)|23 wards, Tokyo|
 |properties.name_zh-cn|震央地名(中国語_簡体字)|东京都23区|
 |properties.name_zh-tw|震央地名(中国語_繁体字)|東京都２３區|
