@@ -35,10 +35,10 @@ GeoJSON形式で、各震央地名が指す地域をポリゴンとして表現�
 
 ## 出典
 気象庁ホームページ
-- [地震情報で用いる震央地名](https://www.data.jma.go.jp/eqev/data/joho/region/index.html)（使用部分：GISデータ）
-- [別紙３ 震央地名地図](https://www.jma.go.jp/jma/press/0609/20b/20060920bessi3.pdf)（使用部分：GISデータ）
+- [地震情報で用いる震央地名](https://www.data.jma.go.jp/eqev/data/joho/region/index.html)（使用部分：震央地名の境界線）
+- [別紙３ 震央地名地図](https://www.jma.go.jp/jma/press/0609/20b/20060920bessi3.pdf)（使用部分：震央地名の境界線）
 - [個別コード表](https://xml.kishou.go.jp/tec_material.html)（使用部分：日本語地名）
-- [予報区等GISデータ「地震情報／細分区域」](https://www.data.jma.go.jp/developer/multilingual.html)（使用部分：一部のひらがな地名）
+- [予報区等GISデータ「地震情報／細分区域」](https://www.data.jma.go.jp/developer/gis.html)（使用部分：一部のひらがな地名）
 - [多言語辞書データ](https://www.data.jma.go.jp/developer/multilingual.html)（使用部分：多国語地名）
 
 上記出典には、政府標準利用規約 第2.0版（[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/legalcode.ja)互換）が適用されます。
