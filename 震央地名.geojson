@@ -1136,7 +1136,6 @@
         ]
       }
     },
-    { "type": "Feature", "properties": { "name": "釧路地方北部", "id": 160, "name_en": "Northern Kushiro Region, Hokkaido", "name_zh-cn": "钏路地方北部", "name_zh-tw": "釧路地方北部", "name_ko": "쿠시로 지방 북부", "name_pt": "Norte da Região de Kushiro", "name_es": "Norte de región Kushiro", "name_id": "Daerah Kushiro Utara", "name_vi": "Miền Bắc vùng Kushiro", "name_tl": "Hilagang bahagi ng Rehiyon ng Kushiro", "name_th": "ท้องถิ่นคุชิโระตอนเหนือ", "name_ne": "कुसिरो क्षेत्रको उत्तरी भाग", "name_km": "តំបន់គឹស៊ីរោខាងជើង", "name_my": "ခုရှိယိုဒေသမြောက်ပိုင်း၊ ဟိုကိုင်းဒို", "name_mn": "Хойд Күширо  муж", "name_kana": "くしろちほうほくぶ" }, "geometry": { "type": "MultiPolygon", "coordinates": [] } },
     {
       "type": "Feature",
       "properties": { "name": "釧路地方中南部", "id": 161, "name_en": "Central and southern Kushiro Region, Hokkaido", "name_zh-cn": "钏路地方中南部", "name_zh-tw": "釧路地方中南部", "name_ko": "쿠시로 지방 중남부", "name_pt": "Área Central e Sul da Região de Kushiro", "name_es": "Centro-Sur de región Kushiro", "name_id": "Daerah Kushiro Tengah dan Selatan", "name_vi": "Miền Trung - Nam vùng Kushiro", "name_tl": "Sentral ng Timog na bahagi ng Rehiyon ng Kushiro Region", "name_th": "ท้องถิ่นคุชิโระตอนกลางตอนใต้", "name_ne": "कुसिरो क्षेत्रको मध्य र दक्षिणी भाग", "name_km": "តំបន់គឹស៊ីរោកណ្តាលនិងខាងត្បូង", "name_my": "ခုရှိယိုဒေသတောင်ပိုင်းနှင့် အလယ်ပိုင်း၊ ဟိုကိုင်းဒို", "name_mn": "Өмнөд Күширо  муж", "name_kana": "くしろちほうちゅうなんぶ" },
@@ -2829,7 +2828,7 @@
     },
     {
       "type": "Feature",
-      "properties": { "name": "岩手県沿岸南部", "id": 233, "name_en": "Southern Inland of Akita Prefecture", "name_zh-cn": "秋田县内陆地南部", "name_zh-tw": "秋田縣內陸南部", "name_ko": "아키타 현 내륙 남부", "name_pt": "Região Sul Interior da Província de Akita", "name_es": "Interior sur de Prefectura de Akita", "name_id": "Bagian Selatan Pedalaman di Prefektur Akita", "name_vi": "Miền Nam vùng nội địa tỉnh Akita", "name_tl": "Timog na bahagi ng lupain ng Akita Prefecture", "name_th": "ด้านในแผ่นดินตอนใต้ของจังหวัดอากิตะ", "name_ne": "आकिता जिल्लाको भित्री (समुद्री किनारबाट टाढा) क्षेत्रको दक्षिणी भाग", "name_km": "តំបន់ដីឆ្ងាយពីឆ្នេរខាងត្បូងនៃខេត្ដអាគីតា", "name_my": "အခိတစီရင်စု တောင်ပိုင်းကုန်းတွင်းဒေသ", "name_mn": "Акита аймаг, өмнөд нутаг", "name_kana": "いわてけんえんがんなんぶ" },
+      "properties": { "name": "岩手県沿岸南部", "id": 211, "name_en": "Southern Coast of Iwate Prefecture", "name_zh-cn": "岩手县沿岸南部", "name_zh-tw": "岩手縣沿岸南部", "name_ko": "이와테 현 연안 남부", "name_pt": "Litoral Sul da Província de Iwate", "name_es": "Costa sur de Prefectura de Iwate", "name_id": "Pantai Selatan di Prefektur Iwate", "name_vi": "Miền Nam bờ biển tỉnh Iwate", "name_tl": "Timog na bahagi ng baybayin ng Iwate Prefecture", "name_th": "ชายฝั่งตอนใต้ของจังหวัดอิวาเตะ", "name_ne": "इवाते जिल्लाको समुद्री किनारको दक्षिणी भाग", "name_km": "តំបន់ខាងត្បូងឆ្នេរសមុទ្រនៃខេត្តអ៊ីវ៉ាតិ", "name_my": "အိဝတဲစီရင်စု တောင်ပိုင်းကမ်းခြေ", "name_mn": "Иватэ аймаг, өмнөд эрэг", "name_kana": "いわてけんえんがんなんぶ" },
       "geometry": {
         "type": "MultiPolygon",
         "coordinates": [
@@ -11262,7 +11261,7 @@
     },
     {
       "type": "Feature",
-      "properties": { "name": "日本海西部", "id": 909, "name_en": "Weatern Sea of Japan", "name_zh-cn": "日本海西部", "name_zh-tw": "日本海西部", "name_ko": "일본해 서부", "name_pt": "Área oeste do Mar do Japão", "name_es": "Oeste de Mar de Japón", "name_id": "Bagian Barat di Laut Jepang", "name_vi": "Miền Tây biển Nhật Bản", "name_tl": "Kanlurang bahagi ng Japan Sea", "name_th": "ทะเลญี่ปุ่นฟากตะวันตก", "name_ne": "जापान सागरको पश्चिमी भाग", "name_km": "តំបន់ខាងលិចនៃសមុទ្រជប៉ុន", "name_my": "ဂျပန်ပင်လယ်အနောက်ပိုင်း", "name_mn": "Япон тэнгисийн баруун тал", "name_kana": "にほんかいせいぶ" },
+      "properties": { "name": "日本海西部", "id": 909, "name_en": "Western Sea of Japan", "name_zh-cn": "日本海西部", "name_zh-tw": "日本海西部", "name_ko": "일본해 서부", "name_pt": "Área oeste do Mar do Japão", "name_es": "Oeste de Mar de Japón", "name_id": "Bagian Barat di Laut Jepang", "name_vi": "Miền Tây biển Nhật Bản", "name_tl": "Kanlurang bahagi ng Japan Sea", "name_th": "ทะเลญี่ปุ่นฟากตะวันตก", "name_ne": "जापान सागरको पश्चिमी भाग", "name_km": "តំបន់ខាងលិចនៃសមុទ្រជប៉ុន", "name_my": "ဂျပန်ပင်လယ်အနောက်ပိုင်း", "name_mn": "Япон тэнгисийн баруун тал", "name_kana": "にほんかいせいぶ" },
       "geometry": {
         "type": "MultiPolygon",
         "coordinates": [
